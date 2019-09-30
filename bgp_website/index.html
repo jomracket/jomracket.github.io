@@ -1,0 +1,245 @@
+<?php 
+define('WP_USE_THEMES', false);
+require('blog/wp-blog-header.php');
+?>
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Be Good Productions</title>
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="padding-top: 70px">
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+  <a class="navbar-brand" href="#HOME"><img src="images/logo.png" width="50" height="30" alt=""/></a></div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="topFixedNavbar1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+          <li><a href="#DONATE">Donate</a></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="https://www.facebook.com/pg/BeGoodProject/" target="new">Facebook</a></li>
+              <li><a href="#CONTACT">Comments</a></li>
+
+                            <li role="separator" class="divider"></li>
+
+              <li><a href="mailto:info@thebegoodproject.org">Email</a></li>
+            </ul>
+</nav>
+  <a id="HOME"></a>
+  <section class="hero" id="hero">
+ 
+<h2 class="hero_header"> <br>THE BE GOOD <span class="light">FOUNDATION PROJECT</span></h2>
+<p class="copyright">Hunger Doesn't Wait. | BE AWESOME TODAY!</p>
+</section>
+  
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">
+</p>
+    <p class="text_column">&nbsp;</p>
+    <p class="text_column">&nbsp;</p>
+  </section>
+  <!-- div >
+<?php
+$number_of_posts = 5;
+$args = array( 'numberposts' => $number_of_posts );
+$recent_posts = wp_get_recent_posts( $args );
+foreach( $recent_posts as $recent_post ){
+echo "<span>".$recent_post['post_date']."</span> <br>";
+echo "<h3>".$recent_post['post_title']."</h3>";
+echo  "<p>".$recent_post['post_content']."</p><br><br>";
+}
+?>
+  </div -->
+  <!-- Stats Gallery Section -->
+  <div class="gallery">
+    <div class="thumbnail">
+      <h1 class="stats">Sari-Sari Food Pantry (US)</h1>
+      <h4>(sa-ree-sa-ree)</h4>
+      <p>Sari-Sari Food Pantry Program
+ is a network of community-based food pantries that provide access to free day-use food supplies. Filipino term that means variety or sundry. (US only)</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">MoLib Mobile Library (PH)</h1>
+      <h4>(moh-layb)</h4>
+      <p>
+MoLib is an innovative technology-based mobile library system designed to expand the reach of a  library to address children's education and the digital divide.</p>
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">Volunteer and Internship</h1>
+      <h4>The Good We Do</h4>
+      <p>
+
+Awesome humans like you from different background wants to help so we provide opportunities for volunteers and interns think big, work backwards and most importantly have fun every single day. </p>
+    </div>
+    
+  </div>
+  <!-- Parallax Section -->
+  <section class="banner">
+    <h2 class="parallax">Help our cause</h2>
+    <p class="parallax_description">
+
+Your support and contributions will enable us to meet our goals and improve conditions. Your generous donation will fund our mission.</p>
+  </section> 
+<div id="carousel-example" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example" data-slide-to="1"></li>
+    <li data-target="#carousel-example" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="#"><img src="images/carousel04.jpg" /></a>
+      <div class="carousel-caption">
+        <h3>Together We Are A Force For Good</h3>
+        <p>#ZeroHunger
+
+</p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/carousel05.jpg" /></a>
+      <div class="carousel-caption">
+        <h3>Together We Are A Force For Good</h3>
+        <p>#ZeroHunger</p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/carousel06.jpg" /></a>
+      <div class="carousel-caption">
+        <h3>Together We Are A Force For Good</h3>
+        <p>#ZeroHunger</p>
+      </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+ 
+  <footer>
+    <table width="100%" border="0" align="center" cellpadding="30">
+      <tbody>
+        <tr>
+          <td align="center" valign="middle">Apollo Rimando
+</td>
+          <td align="center" valign="middle">Angel Anne Go</td>
+          <td align="center" valign="middle">Morgan Mann</td>
+          <td align="center" valign="middle">Tania XX</td>
+          <td align="center" valign="middle">Gerald</td>
+          <td align="center" valign="middle">John Santos</td>
+        </tr>
+        <tr>
+          <td align="center" valign="middle">Founder and Chairman</td>
+          <td align="center" valign="middle"><span class="text-center">Board of Advisers</span></td>
+          <td align="center" valign="middle">Board of Advisers</td>
+          <td align="center" valign="middle">Board of Advisers</td>
+		<td align="center" valign="middle">Board of Advisers</td>
+		<td align="center" valign="middle">Technical Advisor</td>
+	    </tr>
+      </tbody>
+      <a id="ABOUT"></a>
+    </table>
+    <article class="footer_column">
+      <h3>ABOUT US</h3>
+      <img src="images/image1.jpg" alt="" width="100%" class="cards"/>
+      <span class="text-center"><p>Our Team</p></span>
+      <p>Our   awesome all-volunteer team loves helping others. We take pride in   sharing kindness and compassion with those in need. If you think share   our values please get in touch with us!</p>
+    </article>
+    
+    <article class="footer_column">
+      <h3>OUR HISTORY</h3>
+      <img src="images/image2.jpg" alt="" width="100%" class="cards"/>
+      <p>Our History</p>
+      <p>Seeing a need for nonprofit work in the area, with a different take on the formula, we formed our organization to provide outside the box solutions. We've grown a lot since then, all thanks to the wonderful people in the community!</p>
+    </article>
+    <article class="footer_column">
+      <h3>OUR MISSION</h3>
+      <img src="images/image6.jpg" alt="" width="100%" class="cards"/>
+		<span class="text-center"><p>Our Mission</p></span>
+      <p>To build a strong community of people linked together by common good dedicated and united in helping each other end hunger and poverty through open education, constantly evolving technology and effective volunteerism.</p>
+      <p> </p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header"><strong>FIND MORE WAYS TO HELP!</strong></p>
+    <span class="text-center">
+    <h2>A Nonprofit Is As Strong As The Community That Holds It Up.</h2></span>
+    <span class="text-center"><p> Together, we can do more than we can do alone. Let's bring our abilities and passions together to affect real change.</p></span>
+	  <span class="text-center"><h3> Get involved!</h3></span>
+   <span class="text-center"><p>There are many ways to join us and support our mission.<br>Contact us to find out  more about volunteering opportunities, fundraising events, and ways that you can get  our message to your friends and family.</p></span>
+<p>&nbsp;</p>
+   <a id="CONTACT"></a>
+    </h2>  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a>Where did you hear about us?</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+			
+      <a id="DONATE"></a>	   
+       <div class="button"><a href="http://paypal.me/BeGoodProject" target="new">DONATE</a></div>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">Be Good Project<br>
+  PO Box 28745, Seattle, Washington 98118, United States<br>
+206.856.5147<br>
+&copy;2019 - <strong>BGP</strong></div>
+<!-- Main Container Ends -->
+<style>
+	/*
+Removes white gap between slides
+*/
+.crsel {
+  background:#444;
+}
+
+/*
+Forces image to be 100% width and not max width of 100%
+*/
+.crsel-item .img-fluid {
+  width:100%;
+  height:auto;
+}
+
+/* 
+anchors are inline so you need ot make them block to go full width
+*/
+.crsel-item a {
+  display: block;
+  width:100%;
+}
+
+	</style>
+	
+<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24JLRJucSrI22etQ%2FQfGi39%2F"+"&opts=16862&num=10&ts=1568687731532");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

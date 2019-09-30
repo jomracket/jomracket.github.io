@@ -1,0 +1,6 @@
+get wordpresshere
+https://wordpress.org/download/
+
+
+Install it like this:
+https://wordpress.org/support/article/how-to-install-wordpress/
