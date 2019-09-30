@@ -22,45 +22,52 @@ require('blog/wp-blog-header.php');
     <![endif]-->
 </head>
 <body style="padding-top: 70px">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png" width="50" height="30" alt=""/></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li><a href="#DONATE">Donate</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.facebook.com/pg/BeGoodProject/" target="new">Facebook</a></li>
+            <li><a href="#CONTACT">Comments</a></li>
+
+            <li role="separator" class="divider"></li>
+            <li><a href="mailto:info@thebegoodproject.org">Email</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <ul class="dropdown-menu">
+            <li><a href="#"></a></li>
+          </ul>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+ <section class="hero" id="hero">
+
 <!-- Main Container -->
 <div class="container"> 
   <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-<div class="navbar-header">
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-  <a class="navbar-brand" href="#HOME"><img src="images/logo.png" width="50" height="30" alt=""/></a></div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="topFixedNavbar1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-          <li><a href="#DONATE">Donate</a></li>
-<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="https://www.facebook.com/pg/BeGoodProject/" target="new">Facebook</a></li>
-              <li><a href="#CONTACT">Comments</a></li>
-
-                            <li role="separator" class="divider"></li>
-
-              <li><a href="mailto:info@thebegoodproject.org">Email</a></li>
-            </ul>
-</nav>
   <a id="HOME"></a>
-  <section class="hero" id="hero">
  
 <h2 class="hero_header"> <br>THE BE GOOD <span class="light">FOUNDATION PROJECT</span></h2>
 <p class="copyright">Hunger Doesn't Wait. | BE AWESOME TODAY!</p>
-</section>
+
   
 
   <!-- About Section -->
   <section class="about" id="about">
     <h2 class="hidden">About</h2>
-    <p class="text_column">
-</p>
-    <p class="text_column">&nbsp;</p>
-    <p class="text_column">&nbsp;</p>
   </section>
   <!-- div >
 <?php
